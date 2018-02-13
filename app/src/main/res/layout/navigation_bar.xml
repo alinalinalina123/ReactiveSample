@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimaryNavBar"
+    android:gravity="center"
+   >
+<ImageButton
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:id="@+id/add"
+    android:layout_marginRight="40dp"
+    android:background="@android:color/transparent"
+    android:src="@drawable/ic_add_black_24dp"
+    />
+<ImageButton
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:id="@+id/edit"
+    android:background="@android:color/transparent"
+    android:src="@drawable/ic_edit_black_24dp"
+    />
+<ImageButton
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:id="@+id/delete"
+    android:layout_marginLeft="40dp"
+    android:background="@android:color/transparent"
+    android:src="@drawable/ic_delete_black_24dp"
+    />
+</LinearLayout>
